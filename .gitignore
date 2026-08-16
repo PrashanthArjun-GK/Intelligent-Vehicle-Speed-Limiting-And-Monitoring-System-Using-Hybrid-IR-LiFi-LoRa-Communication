@@ -1,4 +1,56 @@
+# =====================================================
+# .gitignore
+# Intelligent Vehicle Speed Limiting System
+# PlatformIO + ESP32 Project
+# =====================================================
+
+# ── PlatformIO ────────────────────────────────────
 .pio/
+.pioenvs/
+.piolibdeps/
+
+# ── VS Code ───────────────────────────────────────
 .vscode/
+*.code-workspace
+
+# ── Python (if any scripts used) ──────────────────
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+
+# ── OS generated ──────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ── Compiled / build output ───────────────────────
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+
+# ── Logs ──────────────────────────────────────────
+*.log
+*.out
+
+# ── Sensitive / credentials ───────────────────────
+secrets.h
+credentials.h
+config_private.h
+
+# ── Temporary files ───────────────────────────────
+*.tmp
+*.swp
+*.bak
+*~
